@@ -11,7 +11,7 @@ The code implies that all the data is present in the same folder, un-compressed 
 
 - `CodeBook.md` describes the dataset, its variables,  and any transformations or work that was performed to clean it up.
 
-- The R script, `analysis.R`, does the following:
+- The R script, `Run_analysis.R`, does the following:
 1. Download the dataset if it does not already exist in the working directory
 2. Load the activity and feature info
 3. Loads both the training and test datasets, keeping only those columns which reflect a mean or standard deviation
